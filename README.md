@@ -7,6 +7,8 @@ Which Pokemon is going to win ?
 In this project we are going to create a neural network with Tensorflow to
 be able to predict the winner of a dual between two Pokemon.
 
+There is a comparison of several architectures of neural network.
+
 ## Data
 
 Data are coming from a Kaggle dataset.
@@ -28,7 +30,7 @@ and an output layer with one neurones (no hidder layer).
 To run a train you must specify the location of *full.csv* file :
 ./train10_2.py ../data/full.csv
 
-## Visualisation
+## Visualization
 
 Please run tensorboard in direcorty */tmp/tensorflow/graph/*
 exemple :
